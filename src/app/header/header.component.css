@@ -1,0 +1,9 @@
+#header {
+	min-width: 80%;
+	float: right;
+
+	font-size: 1.7em;
+    text-align: center;
+	
+	/*border-bottom: 1px solid gray;*/
+}

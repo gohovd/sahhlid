@@ -1,0 +1,8 @@
+#nav-left {
+	z-index: 3;
+}
+
+#nav-right {
+	z-index: 3;
+	float: right;
+}
