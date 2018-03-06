@@ -1,3 +1,50 @@
-<p>
-  blog works!
-</p>
+<!--
+
+We have one outer layer, holding all entries.
+Inside this layer, we collect, process, and display all blog posts.
+
+Images uploaded with blog posts must have dimensions >= W: 380 H: 250.
+
+-->
+
+<div id="blog-post-container">
+
+	<!-- ngFor let blog og blogposts -->
+
+	<div id="blog-post" class="w3-card">
+
+		<img src="assets/images/example1.png" class="w3-card w3-image" style="width: 380px;">
+
+		<div id="blog-title">
+			{{ title }}
+			<br>
+			<span id="blog-author">
+				{{ author }}
+			</span>
+			<hr>
+			<div id="blog-text">
+				{{ longText }}
+			</div>
+		</div>
+
+		<span id="blog-day">
+			0{{ day }}
+		</span>
+		<br>
+		<span id="blog-month">
+			{{ month }}
+		</span>
+
+		<button id="blog-expand-button" class="w3-button w3-circle w3-indigo w3-card">
+			+
+		</button>
+
+		<div id="blog-button-bar" class="w3-bar">
+			<a href="#" class="w3-bar-item w3-button w3-large"><i class="fa fa-cloud"></i></a>
+			<a href="#" class="w3-bar-item w3-button w3-large"><i class="fa fa-at"></i></a>
+			<a href="#" class="w3-bar-item w3-button w3-large"><i class="fa fa-archive"></i></a>
+			<a href="#" class="w3-bar-item w3-button w3-large"><i class="fa fa-address-book"></i></a>
+		</div>
+
+	</div>
+</div>

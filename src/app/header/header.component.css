@@ -2,8 +2,10 @@
 	min-width: 80%;
 	float: right;
 
-	font-size: 1.7em;
+	font-size: 1.5em;
     text-align: center;
-	
-	/*border-bottom: 1px solid gray;*/
+
+    z-index: -2;
+    padding: 20px 0px 10px 0px;
+    color: white;
 }

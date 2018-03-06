@@ -1,0 +1,89 @@
+#blog-post-container {
+	min-width: 80%;
+	float: right;
+
+	height: 80%;
+}
+
+#blog-post {
+	margin: auto;
+	margin-top: 100px;
+
+	height: 350px;
+	width: 690px;
+
+}
+
+#blog-post img {
+	position: relative;
+	bottom: 30px;
+	left: 25px;
+
+	filter: grayscale(100%);
+}
+
+#blog-post hr {
+	min-width: 90%;
+}
+
+#blog-title {
+	color: gray;
+	font-size: 1.3em;
+
+	position: relative;
+	max-width: 250px;
+	left: 435px;
+	bottom: 225px;
+}
+
+#blog-author {
+	border: 1px #f7f6f6 solid;
+	border-radius: 10%;
+	font-size: 0.5em;
+	padding: 6px;
+	background-color: #f7f6f6;
+}
+
+#blog-text {
+	font-size: 0.6em;
+	max-width: 240px;
+}
+
+#blog-day {
+	font-size: 6em;
+	color: lightgray;
+	position: relative;
+	bottom: 320px;
+	left: 25px;
+	text-align: center;
+
+}
+#blog-month {
+	font-size: 1.3em;
+	color: lightgray;
+	position: relative;
+	bottom: 357px;
+	left: 45px;
+	text-align: center;
+}
+
+#blog-expand-button {
+	position: relative;
+	left: 550px;
+	bottom: 335px;
+}
+
+/*Doesn't work, want to change the hover color and other things*/
+#blog-expand-button button:hover {
+	background-color: orange;
+}
+
+#blog-button-bar {
+	position: relative;
+	bottom: 403px;
+	left: 205px;
+}
+
+#blog-button-bar i {
+	font-size: 1.2em;
+}
